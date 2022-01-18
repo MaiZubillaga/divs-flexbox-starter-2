@@ -103,9 +103,14 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+}
+
+main {
+    padding: 1.3em 0;
 }
 
 .wrapper {
@@ -114,27 +119,43 @@ body {
   justify-content: space-between;
   border-top: 1px solid #999999;
   border-bottom: 1px solid #999999;
+  margin: 2em 0;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
   line-height: 1.5em;
   font-size: 1.1em;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 1.3em 0;
 }
 
 .div-1, .div-2 {
     border-right: 1px solid #404040;
 }
 
+h1 {
+    font-family: "Lora", sans-serif;
+    font-size: 4em;
+}
+
+h2 {
+    font-weight: 400;
+}
+
 span {
+    font-family: "Lora", sans-serif;
     text-transform: uppercase;
     font-weight: bolder;
+}
+
+
+.social img{
+    width: 2em;
+    padding: 1em 0.5em;
 }
 
 
